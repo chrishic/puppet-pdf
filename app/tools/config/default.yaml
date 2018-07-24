@@ -1,0 +1,5 @@
+app:
+    hostname: localhost
+    debug_verbose: false
+    HTML_PAGE_FETCH_TIMEOUT: 30000
+    HTML_TO_PDF_TIMEOUT: 30000

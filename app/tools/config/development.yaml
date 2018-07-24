@@ -1,0 +1,3 @@
+app:
+    hostname: localhost
+    debug_verbose: true

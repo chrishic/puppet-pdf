@@ -1,0 +1,25 @@
+{
+    "name": "puppet-pdf",
+    "version": "0.0.1",
+    "description": "None yet",
+    "private": true,
+    "engines": {
+        "node": ">=7.4.0"
+    },
+    "scripts": {
+        "lint": "node_modules/.bin/grunt --gruntfile Gruntfile.js build",
+        "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chrishic/puppet-pdf"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "chai-http": "^2.0.1",
+        "grunt": "^1.0.0",
+        "grunt-contrib-jshint": "^0.12.0",
+        "istanbul": "^0.4.5",
+        "mocha": "^2.4.5"
+    }
+}
